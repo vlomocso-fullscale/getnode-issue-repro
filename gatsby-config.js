@@ -6,6 +6,13 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+          spaceId: `jmb3qb1hglmz`,
+          accessToken: `NS_smID9aYNETo2-QfO4pyI-T28A6JW2O23hzf2acu4`
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
